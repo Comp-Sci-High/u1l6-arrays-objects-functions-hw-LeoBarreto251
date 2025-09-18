@@ -23,9 +23,17 @@ console.log(fruits);
 // D. Add a new property `isGraduated` and set it to `true`.
 // E. Delete the `age` property from the object.
 // F. Log the updated student object.
+let student = {
+student:"Leandro Barreto",
+age: 17,
+grade:"A",
+}
+console.log(student.age);
+student.grade = "A+"
+student.isGraduated = false;
+delete student.age
 
-
-
+console.log(student)
 // TASK 3: Functions - Create and Call Functions
 // A. Write a function called `calculateTotal` that takes two inputs: price and quantity.
 //    The function should return the total price by multiplying price by quantity.
